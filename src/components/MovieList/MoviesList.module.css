@@ -1,0 +1,56 @@
+/* MoviesList.module.css */
+.moviesList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .movieListItem {
+    flex: 1 1 200px;
+  }
+  
+  /* HomePage.module.css */
+  .homePage {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  /* Loader.module.css */
+  .loaderWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Navigation.module.css */
+  .header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .active {
+    border-bottom: 2px solid #f47e60;
+  }
+  

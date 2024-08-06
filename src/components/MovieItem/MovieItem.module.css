@@ -1,0 +1,28 @@
+/* MovieItem.module.css */
+.movieItem {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .moviePoster {
+    max-width: 50%;
+    border-radius: 8px;
+  }
+  
+  .movieLink {
+    text-decoration: none;
+  }
+  
+  .movieButton {
+    background-color: #f47e60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .movieButton:hover {
+    background-color: #e15b64;
+  }
+  
